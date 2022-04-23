@@ -1,0 +1,36 @@
+.error_block{
+    margin: 15% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+
+    div{
+        flex-direction: column;
+        display: block;
+    }
+    .error_number{
+        margin-top: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+    }
+    .error_descr{
+        margin-top: 60px;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #1E1E1E;
+    }
+    .error-link{
+        font-size: 11px;
+        line-height: 11px;
+        text-align: center;
+        color: #3369F3;
+        margin-top: 50px;
+        text-decoration: none;
+    }
+
+}

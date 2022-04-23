@@ -1,0 +1,48 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "PORT=3000 parcel index.html",
+        "dev": "parcel index.html",
+        "build": "parcel build index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.4.1",
+        "assert": "^2.0.0",
+        "browserify-zlib": "^0.2.0",
+        "buffer": "^6.0.3",
+        "constants-browserify": "^1.0.0",
+        "crypto-browserify": "^3.12.0",
+        "events": "^3.3.0",
+        "gulp-sass": "^5.1.0",
+        "handlebars": "^4.7.7",
+        "handlebars-loader": "^0.0.4",
+        "parcel": "^2.4.1",
+        "path": "^0.12.7",
+        "path-browserify": "^1.0.1",
+        "process": "^0.11.10",
+        "querystring-es3": "^0.2.1",
+        "stream-browserify": "^3.0.0",
+        "stream-http": "^3.2.0",
+        "url": "^0.11.0",
+        "util": "^0.12.4", 
+        "parcel-plugin-handlebars-precompile": "^1.0.2",
+        "parcel-bundler": "^1.11.0"
+    },
+    "dependencies": {
+        "connect": "^3.7.0",
+        "express": "^4.17.3",
+        "express-handlebars": "^6.0.5",
+        "hbs": "^4.2.0",
+        "node-sass": "^7.0.1",
+        "yarn": "^1.22.18"
+    },
+    "engines": {
+        "node": ">=12"
+    }
+}

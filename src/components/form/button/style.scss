@@ -1,0 +1,11 @@
+$mainColor: #fff;
+$backGroundColor: #3369F3;
+
+button{
+    color: $mainColor;
+    width: 280px;
+    height: 37px;
+    background: $backGroundColor;
+    border-radius: 8px;
+    border: none;
+}
