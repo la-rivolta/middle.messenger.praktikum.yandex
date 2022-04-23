@@ -4,5 +4,5 @@
 билд: npm run build
 старт: npm run start
 
-Домен Netlify: bespoke-dolphin-7d0f99
+Домен Netlify: keen-axolotl-2eaa34
 
