@@ -1,5 +1,5 @@
-$formLinkColor: #FF0000;
+@import '../../../../../variables.scss';
 
 .link-exit{
-    color: $formLinkColor;
+    color: $exitLinkColor;
 }

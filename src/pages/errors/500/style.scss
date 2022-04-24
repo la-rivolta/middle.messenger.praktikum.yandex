@@ -1,3 +1,5 @@
+@import '../../../../variables.scss';
+
 .error_block{
     margin: 15% auto;
     display: flex;
@@ -22,13 +24,13 @@
         font-size: 20px;
         line-height: 20px;
         text-align: center;
-        color: #1E1E1E;
+        color: $blackColor;
     }
     .error-link{
         font-size: 11px;
         line-height: 11px;
         text-align: center;
-        color: #3369F3;
+        color:$exitLinkColor;
         margin-top: 50px;
         text-decoration: none;
     }

@@ -1,10 +1,12 @@
+@import '../../../../../variables.scss';
+
 .avatar-img{
     width: 130px;
     height: 75px;
-    background: #EFEFEF;
+    background: $grayColor;
     border-radius: 50%;
     text-align: center;
 
-    color: #1E1E1E;
+    color: $blackColor;
     padding-top: 50px;
 }

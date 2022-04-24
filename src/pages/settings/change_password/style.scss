@@ -1,7 +1,9 @@
+@import '../../../../variables.scss';
+
 .profile-form{
     margin: 10% auto;
     width: 510px;
-    background: #FFFFFF;
+    background: $mainColor;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,10 +11,10 @@
     .avatar-img{
         width: 110px;
         height: 75px;
-        background: #EFEFEF;
+        background: $grayColor;
         border-radius: 50%;
         text-align: center;
-        color: #1E1E1E;
+        color: $blackColor;
         padding-top: 35px;
 
         img{
@@ -28,17 +30,17 @@
         position: relative;
         font-size: 13px;
 
-        label{
+        .profile-field_label{
             position: absolute;
             right: 5px;
-            color: #999999;
+            color: $darkGrayColor;
         }
 
-        input, input:focus{
+        .profile-field_input, .profile-field_input:focus{
             outline: 0;
             border: none;
-            color:#1E1E1E;
-            border-bottom: 1px solid #EAEAEA;
+            color:$blackColor;
+            border-bottom: 1px solid $grayColor;
             width: 500px;
             height: 13px;
             font-family: 'Inter';

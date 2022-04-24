@@ -6,48 +6,37 @@ import login_form from './src/pages/login-form/index.js';
 import reg_form from './src/pages/reg-form/index.js';
 import settings from './src/pages/settings/profile/index.js';
 
-import server from './server.js';
+let path = window.location.pathname;
+let rootId = document.getElementById('root');
 
-
-console.log(tpl);
-
-let path = window.location.href;
-let urlPage = path.toString().substr(21, path.length);;
-console.log(urlPage);
-
-if(urlPage == "/"){
-    document.getElementById('root').innerHTML = tpl({
+switch (path) {
+    case "/chats":
+        rootId.innerHTML = tpl({
+            chats: chats()
+        });  
+        break;
+    case "/error_404":
+        rootId.innerHTML = tpl({
+            error_404: error_404()
+        });  
+        break;
+    case "/error_500":
+        rootId.innerHTML = tpl({
+            error_500: error_500()
+        });
+        break;
+    case "/reg_form":
+        rootId.innerHTML = tpl({
+            reg_form: reg_form()
+        });
+        break;
+    case "/settings":
+        rootId.innerHTML = tpl({
+            settings: settings()
+        });
+        break;
+    default:
+      rootId.innerHTML = tpl({
         login_form: login_form()
     });
-}
-
-else if(urlPage == "/chats"){
-    document.getElementById('root').innerHTML = tpl({
-        chats: chats()
-    });
-}
-else if(urlPage == "/error_404"){
-    document.getElementById('root').innerHTML = tpl({
-        error_404: error_404()
-    });
-}
-
-else if(urlPage == "/error_500"){
-    document.getElementById('root').innerHTML = tpl({
-        error_500: error_500()
-    });
-}
-
-else if(urlPage == "/reg_form"){
-    document.getElementById('root').innerHTML = tpl({
-        reg_form: reg_form()
-    });
-}
-
-else if(urlPage == "/settings"){
-    document.getElementById('root').innerHTML = tpl({
-        settings: settings()
-    });
-}
-
-
+  }

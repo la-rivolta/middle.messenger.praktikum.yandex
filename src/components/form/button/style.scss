@@ -1,11 +1,10 @@
-$mainColor: #fff;
-$backGroundColor: #3369F3;
+@import '../../../../variables.scss';
 
-button{
+.btn{
     color: $mainColor;
     width: 280px;
     height: 37px;
-    background: $backGroundColor;
+    background: $fieldColor;
     border-radius: 8px;
     border: none;
 }

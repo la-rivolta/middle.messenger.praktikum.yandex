@@ -1,4 +1,4 @@
-$formLinkColor: #3369F3;
+@import '../../../variables.scss';
 
 .link-profile{
     height: 11px;
@@ -7,14 +7,14 @@ $formLinkColor: #3369F3;
     font-weight: 500;
     font-size: 11px;
     line-height: 11px;
-    color: formLinkColor;
+    color: $fieldColor;
     text-decoration: none;
     margin-top: 20px;
     width: 510px;
 }
 
 .hr-div{
-    background: #EAEAEA;
+    background: $grayColor;
     height: 1px;
     width: 510px;
     margin-top: 10px;
