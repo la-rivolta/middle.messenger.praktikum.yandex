@@ -1,4 +1,4 @@
-import tpl from './index.hbs';
+//import tpl from './index.hbs';
 import chats from './src/pages/chats/index.js';
 import error_404 from './src/pages/errors/404/index.js';
 import error_500 from './src/pages/errors/500/index.js';
