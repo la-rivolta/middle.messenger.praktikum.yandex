@@ -4,5 +4,5 @@
 билд: npm run build
 старт: npm run start
 
-Домен Netlify: keen-axolotl-2eaa34
+Домен Netlify: https://deploy-preview-1--incomparable-chaja-604ac5.netlify.app/
 
