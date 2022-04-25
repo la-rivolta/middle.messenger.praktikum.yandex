@@ -12,7 +12,7 @@ import '../change_password/style.scss';
 import './style.scss';
 
 
-document.getElementById('root').innerHTML = tpl({
+export default document.getElementById('root').innerHTML = tpl({
     avatar_img: avatar_img(avatar_picture),
     profile_email: profile_email('input1', 'почта', 'ivanov@gmail.com'),
     profile_login: profile_login('input2', 'логин', 'ivanovi'),

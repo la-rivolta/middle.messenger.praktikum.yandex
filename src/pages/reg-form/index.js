@@ -9,7 +9,7 @@ import name_field from '../../components/form/fields/name/index.js';
 import './style.scss';
 
 
-document.getElementById('root').innerHTML = tpl({
+export default document.getElementById('root').innerHTML = tpl({
     title: title('Регистрация'),
     button: button('btn1', 'Зарегистрироваться'),
     name_field: name_field('inp5', 'имя'),
