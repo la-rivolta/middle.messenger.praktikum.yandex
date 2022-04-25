@@ -1,3 +1,4 @@
+import Handlebars from 'handlebars/dist/handlebars.runtime';
 import tpl from './tpl.hbs';
 import error_number from '../../../components/error_view/error_number/index.js';
 import error_link from '../../../components/error_view/error_link/index.js';
