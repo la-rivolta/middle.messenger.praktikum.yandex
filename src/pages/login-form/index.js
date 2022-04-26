@@ -7,7 +7,7 @@ import link from '../../components/form/link/index.js';
 import './style.scss';
 
 
-export default document.getElementById('root').innerHTML = tpl({
+export default () => tpl({
     title: title('Вход'),
     button: button('btn1', 'Авторизация'),
     login_field: login_field('inp1', 'логин'),

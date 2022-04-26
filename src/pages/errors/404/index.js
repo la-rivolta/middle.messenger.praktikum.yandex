@@ -6,8 +6,8 @@ import error_descr from '../../../components/error_view/error_descr/index.js';
 import './style.scss';
 
 
-export default document.getElementById('root').innerHTML = tpl({
+export default () => tpl({
     error_number: error_number('404'),
     error_descr: error_descr('Не туда попали'),
-    error_link: error_link('#', 'Назад к чатам'),
+    error_link: error_link('#', 'Назад к чатам')
 });

@@ -9,14 +9,14 @@ import name_field from '../../components/form/fields/name/index.js';
 import './style.scss';
 
 
-export default document.getElementById('root').innerHTML = tpl({
+export default () => tpl({
     title: title('Регистрация'),
     button: button('btn1', 'Зарегистрироваться'),
     name_field: name_field('inp5', 'имя'),
-    name_field1: name_field('inp6', 'имя'),
+    name_field1: name_field('inp6', 'фамилия'),
     mail_field:  mail_field('inp4', 'почта'),
     login_field: login_field('inp1', 'логин'),
     password_field: password_field('inp2', 'пароль'),
-    password_field1: password_field('inp3', 'пароль'),
+    password_field1: password_field('inp3', 'повторите пароль'),
     link: link('#', 'Войти')
 });
