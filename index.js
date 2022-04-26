@@ -37,6 +37,6 @@ switch (path) {
         break;
     default:
       rootId.innerHTML = tpl({
-        reg_form: reg_form()
+        login_form: login_form()
     });
   }
