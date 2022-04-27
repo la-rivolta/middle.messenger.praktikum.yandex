@@ -1,0 +1,21 @@
+@import '../../../variables.scss';
+
+.link-profile{
+    height: 11px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    color: $fieldColor;
+    text-decoration: none;
+    margin-top: 20px;
+    width: 510px;
+}
+
+.hr-div{
+    background: $grayColor;
+    height: 1px;
+    width: 510px;
+    margin-top: 10px;
+}

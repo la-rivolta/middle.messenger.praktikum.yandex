@@ -1,0 +1,10 @@
+@import '../../../../variables.scss';
+
+.btn{
+    color: $mainColor;
+    width: 280px;
+    height: 37px;
+    background: $fieldColor;
+    border-radius: 8px;
+    border: none;
+}
