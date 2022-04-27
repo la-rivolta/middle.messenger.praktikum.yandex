@@ -12,31 +12,31 @@ let rootId = document.getElementById('root');
 switch (path) {
     case "/chats":
         rootId.innerHTML = tpl({
-            chats: chats()
+            content: chats()
         });  
         break;
     case "/error_404":
         rootId.innerHTML = tpl({
-            error_404: error_404()
+            content: error_404()
         });  
         break;
     case "/error_500":
         rootId.innerHTML = tpl({
-            error_500: error_500()
+            content: error_500()
         });
         break;
     case "/reg_form":
         rootId.innerHTML = tpl({
-            reg_form: reg_form()
+            content: reg_form()
         });
         break;
     case "/settings":
         rootId.innerHTML = tpl({
-            settings: settings()
+            content: settings()
         });
         break;
     default:
       rootId.innerHTML = tpl({
-        login_form: login_form()
+        content: login_form()
     });
   }
